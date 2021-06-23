@@ -39,9 +39,15 @@ a {
 .craft-images {
     position: relative;
     top: 0%; right: 0%; bottom: 0%; left: 17%;
-    display: inline;
-    flex: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
     padding: 5px;
+}
+
+.craft {
+    border-style: solid;
+    border-color: black;
+    padding: auto;
 }
 
 .about-me {
